@@ -68,7 +68,7 @@ const Footer = () => {
         </div>
         <div className="col-span-5">
           <h3 className="flex items-center justify-center">
-            Ac Copyright 2025. Made by datba
+            © Copyright 2025. Made by datba
           </h3>
         </div>
       </div>
