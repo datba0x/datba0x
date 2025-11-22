@@ -43,19 +43,19 @@ export const mockSkills: Skill[] = [
   },
   {
     title: "Databases",
-    description: "SQLite PostgreSQL Mongo",
+    description: "MySQL PostgreSQL Mongo",
   },
   {
     title: "Tools",
-    description: "VSCode Neovim Linux Figma XFCE Arch Git Font Awesome",
+    description: "VSCode Visual Studio Linux Figma Git",
   },
   {
     title: "Other",
-    description: "HTML CSS EJS SCSS REST Jinja",
+    description: "HTML CSS SCSS XAML",
   },
   {
     title: "Frameworks",
-    description: "React Vue Disnake Discord.js Flask Express.js",
+    description: "React Nextjs Dotnet Framework Dotnet Core Nestjs Express.js",
   },
 ];
 
@@ -442,7 +442,10 @@ const HomePage = () => {
               <div className="space-y-2">
                 {/* Github */}
                 <div className="flex flex-row items-center gap-3 hover transition-transform duration-300 hover:scale-105">
-                  <Link to="https://github.com/datba0x">
+                  <Link
+                    to="https://github.com/datba0x"
+                    className="flex flex-row items-center gap-3"
+                  >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
